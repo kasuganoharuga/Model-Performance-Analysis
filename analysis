@@ -1,0 +1,5 @@
+import wave, struct, os
+from openai import OpenAI
+ # silence deprecation warning
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
